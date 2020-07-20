@@ -1,4 +1,6 @@
-Hi. I'm Anucha. I do shit ranged from playing racing games while intoxicated to making 3D works.
+## Hi.
+
+I'm Anucha. I do shit ranged from playing racing games while intoxicated to making 3D works.
 There were no instruction on what I should code so I put in a flashine LED and a lyric for 24-hour cinderells in this readme
 
 sunao ni I LOVE YOU!
