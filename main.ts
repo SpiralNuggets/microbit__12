@@ -8,6 +8,16 @@ function ledoff() {
         `)
 }
 
+let random = 0
+input.onGesture(Gesture.Shake, function on_gesture_shake() {
+    basic.clearScreen()
+    if (random == 2) {
+        basic.showString("Yes")
+    } else if (random == 1) {
+        basic.showString("No")
+    }
+    
+})
 function ledon() {
     basic.showLeds(`
         # # # # #
@@ -19,6 +29,7 @@ function ledon() {
 }
 
 basic.forever(function on_forever() {
-    ledon()
-    ledoff()
+    
 })
+basic.showString("Hello!")
+basic.showNumber(0)
