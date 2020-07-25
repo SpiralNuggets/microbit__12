@@ -15,6 +15,8 @@ input.onGesture(Gesture.Shake, function on_gesture_shake() {
         basic.showString("Yes")
     } else if (random == 1) {
         basic.showString("No")
+    } else {
+        basic.showString("I don't know")
     }
     
 })

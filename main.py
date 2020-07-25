@@ -15,7 +15,7 @@ def on_gesture_shake():
         basic.show_string("Yes")
     elif random == 1:
         basic.show_string("No")
-    else
+    else:
         basic.show_string("I don't know")
 input.on_gesture(Gesture.SHAKE, on_gesture_shake)
 
